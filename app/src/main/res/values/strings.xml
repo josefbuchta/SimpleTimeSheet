@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Simple TimeSheet</string>
+    <string name="action_settings">Settings</string>
+    
+    <!--Text for toasts texts-->
+    <string name="export_file_created">File created</string>
+    <string name="export_cannot_delete">File exists and cannot be deleted</string>
+    
+    <string name="backup_created">Backup created</string>
+    <string name="backup_failed">Backup failed</string>
+
+    <string name="dir_failed">Create directory failed</string>
+    
+    <string name="restore_success">DB restored</string>
+    <string name="restore_failed">Restore DB failed</string>
+
+    <!--Names of tabs-->
+    <string name="main_tab_1">Clock</string>
+    <string name="main_tab_2">Day</string>
+    <string name="main_tab_3">Month</string>
+    <string name="main_tab_4">Tools</string>
+    
+    <!--Texts for dialogBuilders-->
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_save">Save</string>
+    <string name="dialog_button_delete">Delete</string>
+    <string name="dialog_button_update">Update</string>
+    <string name="dialog_button_ok">Ok</string>
+    
+    <string name="dialog_title_save">Save confirmation</string>
+    <string name="dialog_message_save">Do you want to save changes?</string>
+    
+    <string name="dialog_title_additional">Additional time</string>
+
+    <string name="dialog_title_delete">Delete confirmation</string>
+    <string name="dialog_message_delete_additional">Do you want to delete this additional time?</string>
+    <string name="dialog_message_delete_day">Do you want to delete records for this day?</string>
+    <string name="dialog_message_delete_month">Do you want to delete all records for this month?</string>
+    
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_message_no_backup">No backup files found in documents/Simple TimeSheet/backups</string>
+    
+    <string name="dialog_title_restore">Select db to restore</string>
+
+    <string name="dialog_message_export_nodata">Select data to export</string>
+
+    <!--Text for layout elements-->
+    <string name="layout_button_export">Export</string>
+    <string name="layout_button_backup">Backup</string>
+    <string name="layout_button_restore">Restore</string>
+    <string name="layout_button_punch_in">Punch In</string>
+    <string name="layout_button_punch_out">Punch Out</string>
+    <string name="layout_time_separator">:</string>
+    <string name="layout_main_separator">-</string>
+    <string name="layout_time_in">Time In</string>
+    <string name="layout_time_out">Time Out</string>
+    <string name="layout_description">Description</string>
+    <string name="layout_amount">Amount</string>
+    <string name="layout_additional_times">Additional times</string>
+    <string name="layout_month_summary">Month summary</string>
+    <string name="layout_time">Time</string>
+    <string name="layout_weekdays">Weekdays</string>
+    <string name="layout_weekends">Weekends</string>
+    <string name="layout_total">Total</string>
+    <string name="layout_days">Days</string>
+</resources>

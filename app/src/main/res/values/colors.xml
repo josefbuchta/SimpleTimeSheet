@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03417a</color><!--#03417a-->
+    <color name="colorPrimaryDark">#02315c</color><!--#02396b-->
+    <color name="colorAccent">#06b1dd</color>
+    <color name="colorText">@android:color/white</color>
+    <color name="colorPagerSelectedText">@android:color/white</color>
+    <color name="colorPagerText">#D1C4E9</color>
+    <color name="colorTextTimeNotSet">#ff0004</color>
+    <color name="colorTextTimeSet">#00ff22</color>
+    <color name="colorDisabled">#bababa</color>
+    <color name="colorButton">#2affffff</color>
+    <color name="colorCalendarDay">#2affffff</color>
+    <color name="colorCalendarWeekend">#54ffffff</color>
+    <color name="colorCalendarToday">#8effffff</color>
+    <color name="colorCalendarSelectedDay">#10ffffff</color>
+</resources>

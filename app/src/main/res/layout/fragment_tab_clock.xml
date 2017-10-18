@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buchtajosef.simpletimesheet.TabClock"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:id="@+id/activity_time_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="33dp">
+
+        <TextView
+            android:id="@+id/timeSheet_day_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorPagerSelectedText"
+            android:textSize="15sp"/>
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:format12Hour="@null"
+            android:format24Hour="HH:mm:ss"
+            android:layout_marginTop="30dp"
+            android:id="@+id/timeSheet_clock"
+            android:textSize="45sp"
+            android:textColor="@color/colorText"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/timeSheet_clock"
+            android:id="@+id/timeSheet_times"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:text="@string/layout_main_separator"
+                android:textSize="40sp"
+                android:textColor="@color/colorText"
+                android:id="@+id/timeSheet_separator"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:id="@+id/timeSheet_timeIn"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_toStartOf="@id/timeSheet_separator"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/timeSheet_timeOut"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_toEndOf="@id/timeSheet_separator"
+                android:textSize="40sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/timeSheet_times"
+            android:layout_alignParentStart="true">
+            <Button
+                android:id="@+id/tab_clock_button_punch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:textColor="@drawable/text_selector"
+                android:background="@drawable/button_selector"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

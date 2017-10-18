@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Simple TimeSheet</string>
+    
+    <!--Text for toasts texts-->
+    <string name="export_file_created">Soubor vytvořen</string>
+    <string name="export_cannot_delete">Soubor již existuje a nemůže být smazán</string>
+    
+    <string name="backup_created">Záloha vytvořena</string>
+    <string name="backup_failed">Záloha selhala</string>
+
+    <string name="dir_failed">Vytváření složky selhalo</string>
+    
+    <string name="restore_success">Databáze obnovena</string>
+    <string name="restore_failed">Obnova databáze selhala</string>
+
+    <!--Names of tabs-->
+    <string name="main_tab_1">Hodiny</string>
+    <string name="main_tab_2">Den</string>
+    <string name="main_tab_3">Měsíc</string>
+    <string name="main_tab_4">Nástroje</string>
+    
+    <!--Texts for dialogBuilders-->
+    <string name="dialog_button_cancel">Zrušit</string>
+    <string name="dialog_button_save">Uložit</string>
+    <string name="dialog_button_delete">Smazat</string>
+    <string name="dialog_button_update">Aktualizovat</string>
+    <string name="dialog_button_ok">Ok</string>
+    
+    <string name="dialog_title_save">Potvrzení uložení</string>
+    <string name="dialog_message_save">Uložit změny?</string>
+    
+    <string name="dialog_title_addtional">Dodatečný čas</string>
+
+    <string name="dialog_title_delete">Potvrzení smazání</string>
+    <string name="dialog_message_delete_additional">Smazat tento dodatečný čas?</string>
+    <string name="dialog_message_delete_day">Smazat záznamy pro tento den?</string>
+    <string name="dialog_message_delete_month">Smazat záznamy pro tento měsíc?</string>
+    
+    <string name="dialog_title_error">Chyba</string>
+    <string name="dialog_message_no_backup">Nebyly nalezeny žádné soubory se zálohou v documents/Simple TimeSheet/backups</string>
+    
+    <string name="dialog_title_restore">Vyberte databázi pro obnovu</string>
+
+    <string name="dialog_message_export_nodata">Vyberte data pro export</string>
+
+    <!--Text for layout elements-->
+    <string name="layout_button_export">Export</string>
+    <string name="layout_button_backup">Zálohovat</string>
+    <string name="layout_button_restore">Obnovit</string>
+    <string name="layout_button_punch_in">Příchod</string>
+    <string name="layout_button_punch_out">Odchod</string>
+    <string name="layout_time_separator">:</string>
+    <string name="layout_main_separator">-</string>
+    <string name="layout_time_in">Příchod</string>
+    <string name="layout_time_out">Odchod</string>
+    <string name="layout_description">Poznámka</string>
+    <string name="layout_amount">Celkový čas</string>
+    <string name="layout_additional_times">Dodatečné časy</string>
+    <string name="layout_month_summary">Měsíční souhrn</string>
+    <string name="layout_time">Čas</string>
+    <string name="layout_weekdays">Pracovní dny</string>
+    <string name="layout_weekends">Víkend</string>
+    <string name="layout_total">Celkem</string>
+    <string name="layout_days">Dny</string>
+</resources>
